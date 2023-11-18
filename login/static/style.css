@@ -1,0 +1,72 @@
+/* Store this code in 'style.css' file inside the 'static' folder */
+
+.header {
+    padding: 5px 20px;
+    width: 70%;
+    height: 70px;
+    background-color: #3E4095;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for a subtle lift */
+}
+
+.borderRegister {
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    height: 800px;
+    border: 2px solid #3E4095;
+    border-radius: 10px;
+    background-color: #7F83B9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for a subtle lift */
+}
+
+.borderLogin {
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    height: 450px;
+    border: 2px solid #3E4095;
+    border-radius: 10px;
+    background-color: #7F83B9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for a subtle lift */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #3E4095;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer; /* Added pointer cursor on hover for better UX */
+    transition: background-color 0.3s ease; /* Added smooth transition on background color change */
+}
+
+.btn:hover {
+    background-color: #1E2151; /* Darker color on hover */
+}
+
+.textbox {
+    padding: 10px 20px;
+    background-color: #3E4095;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.textbox::placeholder {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.word {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottom {
+    color: #3E4095;
+    font-style: italic;
+    font-weight: bold;
+}
